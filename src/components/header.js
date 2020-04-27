@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import Logo from "../images/aa-dev.svg"
+// import Logo from "../images/aa-dev.svg"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -26,7 +26,8 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          <img src={Logo} alt="logo" />
+          {/* <img src={Logo} alt="logo" /> */}
+          {siteTitle}
         </Link>
       </h1>
     </div>
