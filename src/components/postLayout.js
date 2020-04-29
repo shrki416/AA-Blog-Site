@@ -14,7 +14,7 @@ const postLayout = () => {
 export default postLayout
 
 export const query = graphql`
-  {
+  query PostQuery {
     markdownRemark(frontmatter: { slug: { eq: "/first-post" } }) {
       html
       frontmatter {
