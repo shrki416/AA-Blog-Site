@@ -1,4 +1,6 @@
 import React from "react"
+import { graphql } from "gatsby"
+
 import Layout from "../components/layout"
 
 const postLayout = () => {
@@ -10,3 +12,16 @@ const postLayout = () => {
 }
 
 export default postLayout
+
+export const query = graphql`
+  {
+    markdownRemark(frontmatter: { slug: { eq: "/first-post" } }) {
+      html
+      frontmatter {
+        title
+        date
+        slug
+      }
+    }
+  }
+`
