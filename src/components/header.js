@@ -7,7 +7,6 @@ import logo from "../images/aa-logo-original.png"
 
 const HeaderWrapper = styled.div`
   background: #1a1d53;
-  margin-bottom: 1.5rem;
 `
 
 const HeaderContainer = styled.div`
