@@ -24,11 +24,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `AA-Blog`,
+        short_name: `blog site`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#1a1d53`,
+        theme_color: `#1a1d53`,
         display: `minimal-ui`,
         icon: `src/images/Favicon-Logo.png`, // This path is relative to the root of the site.
       },
