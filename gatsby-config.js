@@ -42,6 +42,6 @@ module.exports = {
         name: `posts`,
       },
     },
-    gatsby - plugin - netlify,
+    `gatsby-plugin-netlify`,
   ],
 }
