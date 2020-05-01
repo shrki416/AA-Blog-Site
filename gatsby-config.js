@@ -3,9 +3,11 @@ module.exports = {
     title: `AA-Blog`,
     description: `A Simple Blog Site`,
     author: `Ahmed Abdelaal`,
+    siteUrl: `https://priceless-raman-14819e.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
@@ -35,6 +37,7 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
     `gatsby-transformer-remark`,
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

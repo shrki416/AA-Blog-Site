@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
 
-import logo from "../images/aa-logo-original.png"
+import logo from "../images/aa-logo-2.png"
 
 const HeaderWrapper = styled.div`
   background: #1a1d53;
